@@ -1,9 +1,6 @@
 import * as dao from "./dao.js";
 import axios from "axios";
 
-export const BASE_API = 'http://localhost:4000'
-export const USERS_API = `${BASE_API}/api/users`;
-
 export default function UserRoutes(app) {
   const createUser = async (req, res) => {
     const user = await dao.createUser(req.body);
