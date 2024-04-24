@@ -41,7 +41,7 @@ ModuleRoutes(app);
 CourseRoutes(app);
 UserRoutes(app);
 Lab5(app);
-
+QuizRoutes(app);
 app.listen(process.env.PORT || 4000); // listen to http://localhost:4000
 // console.log(process.env.FRONTEND_URL);
 
